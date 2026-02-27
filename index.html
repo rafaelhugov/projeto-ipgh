@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Paraibano de Genealogia e Heráldica</title>
+    <meta name="description"
+        content="Fundado em 1967, o IPGH é focado no estudo das origens familiares e símbolos heráldicos da Paraíba.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="parchment-bg">
+
+    <!-- Header / Navbar -->
+    <header id="main-header" class="glass-header">
+        <div class="container header-container">
+            <a href="#" class="logo-link">
+                <div class="logo">
+                    <img src="PDFS/IPGH%20-%20Bras%C3%A3o%20e%20Selo.png" alt="Brasão IPGH" class="logo-img">
+                    <span class="logo-text">Instituto Paraibano<br>de Genealogia e Heráldica</span>
+                </div>
+            </a>
+
+            <nav class="desktop-nav">
+                <ul class="nav-links">
+                    <li><a href="#sobre">Sobre O IPGH</a></li>
+                    <li><a href="#simbolismo">Heráldica</a></li>
+                    <li><a href="#governanca">Governança</a></li>
+                    <li><a href="#publicacoes">Publicações</a></li>
+                    <li><a href="#galeria">Ex-Presidentes</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="#associe-se" class="btn btn-outline-gold">Associe-se</a>
+                <button class="mobile-menu-toggle" aria-label="Abrir menu" id="mobile-toggle">
+                    <i class="ph ph-list"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Nav Menu -->
+        <div class="mobile-nav" id="mobile-menu">
+            <ul class="mobile-nav-links">
+                <li><a href="#sobre" class="close-menu">Sobre O IPGH</a></li>
+                <li><a href="#simbolismo" class="close-menu">Heráldica</a></li>
+                <li><a href="#governanca" class="close-menu">Governança</a></li>
+                <li><a href="#publicacoes" class="close-menu">Publicações</a></li>
+                <li><a href="#galeria" class="close-menu">Ex-Presidentes</a></li>
+                <li><a href="#associe-se" class="close-menu btn btn-gold btn-block mt-4">Associe-se</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero dark-blue-bg reveal" id="hero">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h2 class="sub-heading gold-text">Fundado em 19 de Novembro de 1967</h2>
+                    <h1 class="main-heading text-light">Instituto Paraibano de Genealogia e Heráldica</h1>
+                    <p class="slogan italic-serif gold-text">"Fontes Colamus Nostros" &mdash; Cultuemos Nossas Origens
+                    </p>
+                    <div class="hero-buttons mt-8">
+                        <a href="#publicacoes" class="btn btn-gold btn-lg">Conheça nossa Revista</a>
+                        <a href="#associe-se" class="btn btn-outline-light btn-lg">Associe-se</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="PDFS/IPGH%20-%20Bras%C3%A3o%20e%20Selo.png"
+                        alt="Brasão do Instituto Paraibano de Genealogia e Heráldica" class="brasao-hero floating-anim">
+                </div>
+            </div>
+            <!-- Decorative wave or divider -->
+            <div class="custom-shape-divider-bottom">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path
+                        d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                        opacity=".25" fill="#D4AF37" class="shape-fill"></path>
+                    <path
+                        d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                        opacity=".5" fill="#164a8a" class="shape-fill"></path>
+                    <path
+                        d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                        fill="var(--paper)" class="shape-fill"></path>
+                </svg>
+            </div>
+        </section>
+
+        <!-- Sobre o Instituto -->
+        <section id="sobre" class="section reveal">
+            <div class="container dual-col">
+                <div class="content box-ornamented">
+                    <h2 class="section-title">Sobre o IPGH</h2>
+                    <p class="lead-text mt-4">
+                        Fundado em <strong>19 de novembro de 1967</strong>, o <strong>Instituto Paraibano de Genealogia
+                            e Heráldica (IPGH)</strong> é uma instituição cultural dedicada à preservação da memória
+                        histórica e das linhagens que compõem a identidade do povo paraibano.
+                    </p>
+                    <p class="mt-4">
+                        Reconhecido por sua relevância social e acadêmica, o Instituto é orgulhosamente considerado de
+                        <strong>Utilidade Pública</strong> pela Lei Estadual nº 8.769/2009 e pela Lei Municipal nº
+                        11.348/2008.
+                    </p>
+
+                    <h3 class="subsection-title mt-8">Nossa Missão e Valores</h3>
+                    <p class="mt-4">
+                        Nossa atuação pauta-se no lema <strong>"Fontes Colamus Nostros"</strong> (Cultuemos Nossas
+                        Origens). Buscamos investigar com profundidade científica a genealogia das famílias e a
+                        heráldica, resgatando os símbolos que narram a formação do nosso estado.
+                    </p>
+                </div>
+                <!-- Images grid -->
+                <div class="side-content align-center visual-gallery">
+                    <div class="aesthetic-frame">
+                        <img src="https://images.unsplash.com/photo-1579208032734-7c3095d31b0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            alt="Livros Históricos e Pergaminhos" class="gallery-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Simbolismo (O Brasão) -->
+        <section id="simbolismo" class="section section-dark reveal">
+            <div class="container text-center mb-8">
+                <h2 class="section-title gold-text-light">Nossa Identidade: O Brasão de Armas</h2>
+                <div class="divider mx-auto bg-red"></div>
+                <p class="subtitle text-light mx-auto" style="max-width: 700px;">
+                    O simbolismo do IPGH reflete a própria história da Paraíba. Cada detalhe narra um capítulo da nossa
+                    formação.
+                </p>
+            </div>
+
+            <div class="container grids-3 pt-4">
+                <div class="heraldry-card">
+                    <div class="card-icon">
+                        <img src="imagens/escudo.png" alt="O Escudo do IPGH" style="max-height: 80px; margin: 0 auto;">
+                    </div>
+                    <h3 class="card-title">O Escudo e seus Símbolos:</h3>
+                    <div class="card-text text-left" style="font-size: 1.05rem; line-height: 1.7; text-align: left;">
+                        <h4 class="gold-text mt-6 mb-2" style="font-size: 1.25rem;">Campo de Azul (Azure):</h4>
+                        <p class="mb-4">Na heráldica, o azul simboliza justiça, lealdade e nobreza. No contexto do IPGH,
+                            reforça o compromisso da instituição com a preservação séria e leal da memória histórica.
+                        </p>
+
+                        <h4 class="gold-text mt-6 mb-2" style="font-size: 1.25rem;">Seis Pães de Açúcar de Ouro:</h4>
+                        <p class="mb-4">O "pão de açúcar" era o formato em que o açúcar era comercializado no período
+                            colonial e é um símbolo clássico da riqueza histórica do Nordeste e da Paraíba. O ouro (Or)
+                            representa nobreza, autoridade e a riqueza do conhecimento genealógico.</p>
+
+                        <h4 class="gold-text mt-6 mb-2" style="font-size: 1.25rem;">Disposição em Roquete:</h4>
+                        <p>Refere-se à organização visual dos seis pães (3 no topo, 2 no meio e 1 na base), formando um
+                            triângulo invertido que traz equilíbrio visual ao escudo.</p>
+                    </div>
+                </div>
+
+                <div class="heraldry-card">
+                    <div class="card-icon" style="margin-bottom: 2rem;">
+                        <img src="PDFS/IPGH%20-%20Bras%C3%A3o%20e%20Selo.png" alt="O Lema do IPGH" class="brasao-glow"
+                            style="max-height: 200px; margin: 0 auto;">
+                    </div>
+                    <h3 class="card-title">O Lema (Listel)</h3>
+                    <div class="card-text text-left" style="font-size: 1.05rem; line-height: 1.7; text-align: left;">
+                        <h4 class="gold-text mt-6 mb-2" style="font-size: 1.25rem;">A faixa azul na base:</h4>
+                        <p class="mb-4">Contém a inscrição em latim "FONTES COLAMUS NOSTROS".</p>
+
+                        <h4 class="gold-text mt-6 mb-2" style="font-size: 1.25rem;">Tradução:</h4>
+                        <p class="mb-4">"Cultivemos nossas fontes" ou "Honremos nossas fontes".</p>
+
+                        <h4 class="gold-text mt-6 mb-2" style="font-size: 1.25rem;">Significado:</h4>
+                        <p class="mb-4">É um apelo direto à metodologia da Genealogia e da História, que dependem do
+                            estudo rigoroso das fontes primárias para validar as linhagens e memórias preservadas.</p>
+
+                        <h4 class="gold-text mt-6 mb-2" style="font-size: 1.25rem;">A busca honrosa:</h4>
+                        <p>O brasão sintetiza visualmente o objetivo do IPGH pela busca ativa de nossas origens.</p>
+                    </div>
+                </div>
+
+                <div class="heraldry-card">
+                    <div class="card-icon">
+                        <img src="imagens/topo_escudo.png" alt="O Chefe do Escudo"
+                            style="max-height: 80px; margin: 0 auto;">
+                    </div>
+                    <h3 class="card-title">O Chefe (Parte Superior)</h3>
+                    <div class="card-text text-left" style="font-size: 1.05rem; line-height: 1.7; text-align: left;">
+                        <h4 class="gold-text mt-6 mb-2" style="font-size: 1.25rem;">Chefe de Ouro:</h4>
+                        <p class="mb-4">A faixa superior dourada indica uma posição de honra e autoridade intelectual.
+                        </p>
+
+                        <h4 class="gold-text mt-6 mb-2" style="font-size: 1.25rem;">Gotejado de Vermelho:</h4>
+                        <p>As gotas vermelhas sobre o fundo dourado simbolizam o esforço, a dedicação e o "suor" dos
+                            pesquisadores na construção do conhecimento histórico e genealógico. Podem também remeter ao
+                            sangue e às linhagens que compõem a identidade do povo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Governança -->
+        <section id="governanca" class="section reveal">
+            <div class="container">
+                <div class="text-center mb-8">
+                    <h2 class="section-title">Governança e Tradição</h2>
+                    <div class="divider mx-auto"></div>
+                    <p class="subtitle mx-auto" style="max-width: 800px;">
+                        O Instituto mantém um colegiado de cadeiras cujos patronos são figuras ilustres da
+                        historiografia paraibana, como Trajano Pires da Nóbrega e Manuel Maia de Vasconcelos.
+                    </p>
+                </div>
+
+                <h3 class="text-center mb-6">Diretoria Atual <span class="badge">Triênio 2024-2027</span></h3>
+
+                <div class="board-grid grids-4">
+                    <div class="board-member card text-center">
+                        <div class="avatar"><i class="ph ph-user"></i></div>
+                        <h4 class="member-name">Cícero Caldas Neto</h4>
+                        <p class="member-role">Presidente</p>
+                    </div>
+                    <div class="board-member card text-center">
+                        <div class="avatar"><i class="ph ph-user"></i></div>
+                        <h4 class="member-name">Edinaldo Cordeiro Pinto Júnior</h4>
+                        <p class="member-role">Vice-Presidente</p>
+                    </div>
+                    <div class="board-member card text-center">
+                        <div class="avatar"><i class="ph ph-user"></i></div>
+                        <h4 class="member-name">João Abelardo Lins Barreto</h4>
+                        <p class="member-role">Secretário</p>
+                    </div>
+                    <div class="board-member card text-center">
+                        <div class="avatar"><i class="ph ph-user"></i></div>
+                        <h4 class="member-name">Nemésio Gomes Cavalcanti</h4>
+                        <p class="member-role">Tesoureiro</p>
+                    </div>
+                </div>
+
+                <div class="text-center mt-8">
+                    <p class="italic-serif">Sediado no coração de João Pessoa, o IPGH continua sendo o guardião das
+                        raízes que sustentam o presente e o futuro da nossa terra.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Agendamento de Visitas -->
+        <section id="agendamento" class="section section-dark reveal">
+            <div class="container pb-4">
+                <div class="text-center mb-8">
+                    <h2 class="section-title gold-text-light">Agende sua Visita</h2>
+                    <div class="divider mx-auto bg-red"></div>
+                    <p class="subtitle text-light mx-auto" style="max-width: 700px;">
+                        O Instituto Paraibano de Genealogia e Heráldica abre suas portas para pesquisadores, estudantes
+                        e interessados. Preencha o formulário abaixo para solicitar um agendamento.
+                    </p>
+                </div>
+
+                <div class="form-container">
+                    <form action="#" method="POST" id="visitForm">
+                        <div class="form-grid-2">
+                            <div class="form-group">
+                                <label for="nome" class="form-label">Nome Completo</label>
+                                <input type="text" id="nome" name="nome" class="form-control"
+                                    placeholder="Seu nome completo" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email" class="form-label">E-mail</label>
+                                <input type="email" id="email" name="email" class="form-control"
+                                    placeholder="seu.email@exemplo.com" required>
+                            </div>
+                        </div>
+
+                        <div class="form-grid-2">
+                            <div class="form-group">
+                                <label for="telefone" class="form-label">Telefone / WhatsApp</label>
+                                <input type="tel" id="telefone" name="telefone" class="form-control"
+                                    placeholder="(DDD) 00000-0000">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="data-visita" class="form-label">Data Pretendida</label>
+                                <input type="date" id="data-visita" name="data-visita" class="form-control" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="objetivo" class="form-label">Objetivo da Visita / Mensagem</label>
+                            <textarea id="objetivo" name="objetivo" class="form-control"
+                                placeholder="Descreva brevemente o motivo de sua visita (pesquisa genealógica, consulta ao acervo, visita técnica, etc.)"
+                                required></textarea>
+                        </div>
+
+                        <div class="text-center mt-6">
+                            <button type="submit" class="btn btn-gold btn-lg">Solicitar Agendamento <i
+                                    class="ph ph-paper-plane-tilt ml-2"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publicações -->
+        <section id="publicacoes" class="section section-light reveal">
+            <div class="container dual-col align-center">
+                <div class="magazine-cover">
+                    <div class="book-mockup">
+                        <!-- We use a placeholder matching the style since no cover image was provided -->
+                        <div class="book-front">
+                            <img src="PDFS/IPGH%20-%20Bras%C3%A3o%20e%20Selo.png" alt="Selo IPGH" class="book-logo">
+                            <h3 class="mb-2">Revista do IPGH</h3>
+                            <p class="gold-text uppercase tracking-wide">Número 27 &bull; 2025</p>
+                        </div>
+                        <div class="book-spine"></div>
+                    </div>
+                </div>
+
+                <div class="content pl-8">
+                    <h2 class="section-title">Publicações e Intercâmbio Científico</h2>
+                    <div class="divider"></div>
+                    <p class="mt-4 mb-4">
+                        Através da nossa publicação anual, a <strong class="gold-text-only">Revista do IPGH</strong>,
+                        mantemos vivo o intercâmbio de conhecimento entre pesquisadores, genealogistas e a sociedade.
+                    </p>
+                    <p class="mb-6">
+                        ISSN: <strong>2594-6684</strong><br>
+                        Edição Recente: <strong>Número 27 (2025)</strong>
+                    </p>
+
+                    <a href="PDFS/IPGH Revista 27, Miolo.pdf" target="_blank" class="btn btn-primary">
+                        <i class="ph ph-book-open mr-2"></i> Acessar a Revista 27
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Como Se Associar -->
+        <section id="associe-se" class="section reveal section-dark">
+            <div class="container">
+                <div class="text-center mb-8">
+                    <h2 class="section-title gold-text-light">Como se Associar</h2>
+                    <div class="divider mx-auto bg-red"></div>
+                    <p class="subtitle text-light mx-auto" style="max-width: 800px;">
+                        O ingresso ao Instituto Paraibano de Genealogia e Heráldica se dá mediante um processo
+                        criterioso, focado em reunir pesquisadores dedicados à preservação da memória histórica.
+                    </p>
+                </div>
+
+                <div class="grids-4 mb-8">
+                    <div class="card text-center" style="border-top: 3px solid var(--gold);">
+                        <div class="avatar bg-gold" style="color: white;"><i class="ph ph-handshake"></i></div>
+                        <h4 class="member-name mb-2">1. Indicação</h4>
+                        <p style="font-size: 0.95rem; color: var(--text-muted);">Ser indicado formalmente por um membro
+                            titular já pertencente aos quadros do Instituto.</p>
+                    </div>
+
+                    <div class="card text-center" style="border-top: 3px solid var(--gold);">
+                        <div class="avatar bg-gold" style="color: white;"><i class="ph ph-file-text"></i></div>
+                        <h4 class="member-name mb-2">2. Currículo</h4>
+                        <p style="font-size: 0.95rem; color: var(--text-muted);">Enviar o currículo detalhado e focado
+                            em atividades afins (história, genealogia) para o e-mail do IPGH.</p>
+                    </div>
+
+                    <div class="card text-center" style="border-top: 3px solid var(--gold);">
+                        <div class="avatar bg-gold" style="color: white;"><i class="ph ph-buildings"></i></div>
+                        <h4 class="member-name mb-2">3. Visita Presencial</h4>
+                        <p style="font-size: 0.95rem; color: var(--text-muted);">Comparecer à sede física do Instituto
+                            para conhecer nossas instalações, regimentos e membros.</p>
+                    </div>
+
+                    <div class="card text-center" style="border-top: 3px solid var(--gold);">
+                        <div class="avatar bg-gold" style="color: white;"><i class="ph ph-signature"></i></div>
+                        <h4 class="member-name mb-2">4. Ofício de Ingresso</h4>
+                        <p style="font-size: 0.95rem; color: var(--text-muted);">Preencher e assinar um ofício oficial
+                            que será juntado ao currículo e encaminhado para aprovação do Presidente.</p>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <a href="mailto:ipgh.pb@gmail.com" class="btn btn-gold btn-lg">Enviar E-mail de Contato <i
+                            class="ph ph-paper-plane-right ml-2"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Galeria de Presidentes -->
+    <section id="galeria" class="section reveal">
+        <div class="container text-center">
+            <h2 class="section-title">Galeria de Ex-Presidentes</h2>
+            <div class="divider mx-auto bg-gold"></div>
+            <p class="subtitle mx-auto mb-8" style="max-width: 600px;">
+                Honramos aqueles que dedicaram sua vida à preservação das raízes da Paraíba.
+            </p>
+
+            <div class="presidents-grid grids-3">
+                <div class="president-plaque">
+                    <div class="plaque-inner">
+                        <img src="imagens/Humberto Nóbrega.jpg" alt="Humberto Nóbrega" class="president-img">
+                        <h3 class="plaque-name">Humberto Nóbrega</h3>
+                        <p class="plaque-honor">Membro Histórico e Ex-Presidente</p>
+                    </div>
+                </div>
+                <div class="president-plaque">
+                    <div class="plaque-inner">
+                        <img src="imagens/Adauto Ramos.jpg" alt="Adauto Ramos" class="president-img">
+                        <h3 class="plaque-name">Adauto Ramos</h3>
+                        <p class="plaque-honor">Membro Histórico e Ex-Presidente</p>
+                    </div>
+                </div>
+                <div class="president-plaque">
+                    <div class="plaque-inner">
+                        <img src="imagens/Teldson Sarmento.jpg" alt="Teldson Douetts Sarmento" class="president-img">
+                        <h3 class="plaque-name">Teldson Douetts Sarmento</h3>
+                        <p class="plaque-honor">Membro Histórico e Ex-Presidente</p>
+                    </div>
+                </div>
+                <div class="president-plaque">
+                    <div class="plaque-inner">
+                        <img src="imagens/Américo Maia.jpg" alt="Américo Maia" class="president-img">
+                        <h3 class="plaque-name">Américo Maia</h3>
+                        <p class="plaque-honor">Membro Histórico e Ex-Presidente</p>
+                    </div>
+                </div>
+                <div class="president-plaque">
+                    <div class="plaque-inner">
+                        <img src="imagens/Deusdedit Leitão.jpg" alt="Deusdedit Leitão" class="president-img">
+                        <h3 class="plaque-name">Deusdedit Leitão</h3>
+                        <p class="plaque-honor">Membro Histórico e Ex-Presidente</p>
+                    </div>
+                </div>
+                <div class="president-plaque">
+                    <div class="plaque-inner">
+                        <img src="imagens/Domingos Azevedo.jpg" alt="Domingos Azevedo" class="president-img">
+                        <h3 class="plaque-name">Domingos Azevedo</h3>
+                        <p class="plaque-honor">Membro Histórico e Ex-Presidente</p>
+                    </div>
+                </div>
+                <div class="president-plaque">
+                    <div class="plaque-inner">
+                        <img src="imagens/Edinaldo Pinto Jr.png" alt="Edinaldo Pinto Jr." class="president-img">
+                        <h3 class="plaque-name">Edinaldo Pinto Jr.</h3>
+                        <p class="plaque-honor">Membro Histórico e Ex-Presidente</p>
+                    </div>
+                </div>
+                <div class="president-plaque">
+                    <div class="plaque-inner">
+                        <img src="imagens/Guilherme Lins.png" alt="Guilherme Lins" class="president-img"
+                            style="object-position: top;">
+                        <h3 class="plaque-name">Guilherme Lins</h3>
+                        <p class="plaque-honor">Membro Histórico e Ex-Presidente</p>
+                    </div>
+                </div>
+                <div class="president-plaque">
+                    <div class="plaque-inner">
+                        <img src="imagens/Manuel Maia de Vasconcelos.png" alt="Manuel Maia de Vasconcelos"
+                            class="president-img">
+                        <h3 class="plaque-name">Manuel Maia de Vasconcelos</h3>
+                        <p class="plaque-honor">Membro Histórico e Ex-Presidente</p>
+                    </div>
+                </div>
+                <div class="president-plaque">
+                    <div class="plaque-inner">
+                        <img src="imagens/Natércia Suassuna.jpg" alt="Natércia Suassuna" class="president-img">
+                        <h3 class="plaque-name">Natércia Suassuna</h3>
+                        <p class="plaque-honor">Membro Histórico e Ex-Presidente</p>
+                    </div>
+                </div>
+                <div class="president-plaque">
+                    <div class="plaque-inner">
+                        <img src="imagens/Sabiniano Maia.jpg" alt="Sabiniano Maia" class="president-img">
+                        <h3 class="plaque-name">Sabiniano Maia</h3>
+                        <p class="plaque-honor">Membro Histórico e Ex-Presidente</p>
+                    </div>
+                </div>
+                <div class="president-plaque">
+                    <div class="plaque-inner">
+                        <img src="imagens/Sebastião Sinval Fernandes.png" alt="Sebastião Sinval Fernandes"
+                            class="president-img">
+                        <h3 class="plaque-name">Sebastião Sinval Fernandes</h3>
+                        <p class="plaque-honor">Membro Histórico e Ex-Presidente</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer pt-10 pb-4 dark-blue-bg text-light">
+        <div class="container footer-grid grids-3 mb-8">
+            <div class="footer-col about">
+                <div class="logo mb-4">
+                    <img src="PDFS/IPGH%20-%20Bras%C3%A3o%20e%20Selo.png" alt="IPGH Logo"
+                        class="logo-img logo-glow-white">
+                    <span class="logo-text font-serif ml-2" style="color: var(--text-light);">Instituto Paraibano<br>de
+                        Genealogia e Heráldica</span>
+                </div>
+                <p class="italic-serif text-sm opacity-80" style="max-width: 300px;">
+                    "Fontes Colamus Nostros" - Guardando as raízes e a história viva da Paraíba desde 1967.
+                </p>
+            </div>
+
+            <div class="footer-col links">
+                <h4 class="footer-heading gold-text mb-4">Navegação</h4>
+                <ul class="footer-links">
+                    <li><a href="#sobre">Sobre o Instituto</a></li>
+                    <li><a href="#simbolismo">O Brasão</a></li>
+                    <li><a href="#governanca">Diretoria Atual</a></li>
+                    <li><a href="#publicacoes">Revista IPGH</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col contact">
+                <h4 class="footer-heading gold-text mb-4">Contato e Localização</h4>
+                <ul class="contact-list">
+                    <li><i class="ph ph-map-pin"></i> <span>Rua Barão do Abiaí, 64, Centro, João Pessoa (PB)</span></li>
+                    <li><i class="ph ph-envelope-simple"></i> <a href="mailto:ipgh.pb@gmail.com">ipgh.pb@gmail.com</a>
+                    </li>
+                    <li><i class="ph ph-clock"></i> <span>Visitas mediante agendamento.</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container border-top pt-4 footer-bottom flex-between text-sm opacity-60">
+            <p>&copy; 2026 Instituto Paraibano de Genealogia e Heráldica. Todos os direitos reservados.</p>
+            <p>Utilidade Pública: Lei Estadual nº 8.769/2009.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
