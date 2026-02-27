@@ -508,7 +508,7 @@ img {
    ========================================================================== */
 .hero {
     position: relative;
-    padding: 12rem 0 10rem 0;
+    padding: 18rem 0 10rem 0;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -847,6 +847,107 @@ img {
     font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+/* ==========================================================================
+   Notícias / Na Mídia Section
+   ========================================================================== */
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.news-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--paper-dark);
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-color: var(--gold);
+}
+
+.news-img-wrap {
+    width: 100%;
+    height: 200px;
+    background: var(--paper-shade);
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news-img-wrap i {
+    font-size: 4rem;
+    color: var(--blue-light);
+    opacity: 0.5;
+}
+
+.news-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.news-card:hover .news-img {
+    transform: scale(1.05);
+}
+
+.news-content {
+    padding: 1.5rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-tag {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--gold-dark);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.news-title {
+    font-size: 1.25rem;
+    color: var(--blue-dark);
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.news-link {
+    margin-top: auto;
+    color: var(--blue);
+    font-weight: 600;
+    font-size: 0.95rem;
+    display: inline-flex;
+    align-items: center;
+    transition: color 0.3s ease;
+}
+
+.news-link i {
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+}
+
+.news-link:hover {
+    color: var(--gold-dark);
+}
+
+.news-link:hover i {
+    transform: translateX(3px);
 }
 
 /* ==========================================================================
